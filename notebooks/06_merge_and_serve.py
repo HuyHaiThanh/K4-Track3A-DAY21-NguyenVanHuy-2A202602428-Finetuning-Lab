@@ -64,8 +64,10 @@ assert delta >= -TOL, (
     "với DoRA cần PEFT ≥ 0.10 để gộp đúng vector magnitude (deck §23)."
 )
 
-out = ROOT / "adapters" / "merged"
-merged.save_pretrained(out); tok.save_pretrained(out)
+SAVE_MERGED_CHECKPOINT = False  # Bonus chỉ cần phép đo merge; tránh ghi toàn bộ base.
+if SAVE_MERGED_CHECKPOINT:
+    out = ROOT / "adapters" / "merged"
+    merged.save_pretrained(out); tok.save_pretrained(out)
 report.write_json({"before_merge": before, "after_merge": after, "delta": delta,
                    "tolerance": TOL, "n": len(target)},
                   "merge_check.json", results_dir=ROOT / "results")
