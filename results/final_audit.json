@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-12",
+  "merge_pass": true,
+  "merge_n": 50,
+  "merge_delta": 0,
+  "hot_swap_adapters": [
+    "correct",
+    "attn_only"
+  ],
+  "same_base": true,
+  "hf_public_verified": true,
+  "hf_commit": "9f88c8477773feac84a51e54f55f3011282b2f34",
+  "adapter_sha256": "11c544f555ff9b41efde1e1481e22e6858b3ca198b3df1085d4910c196edad7f",
+  "remote_weights_match_local": true,
+  "bonus_evidence": [
+    "B1",
+    "B5"
+  ],
+  "potential_bonus_points": 5,
+  "qualitative_target_wins": 33,
+  "qualitative_target_ties": 17,
+  "qualitative_target_losses": 0,
+  "rubric_3_4_two_loss_examples_met": true,
+  "regression_loss_count": 8,
+  "regression_selected_loss_examples": [
+    2,
+    3
+  ],
+  "regression_scores_reproduced": true,
+  "qualitative_total_examples": 7,
+  "qualitative_two_loss_examples_met": true,
+  "two_loss_examples_group": "regression",
+  "target_two_loss_examples_available": false,
+  "verifier_exit_code": 0,
+  "verifier_pass_count": 26,
+  "verifier_warning_count": 1,
+  "tests_passed": 116,
+  "tests_skipped": 3,
+  "qualitative_interpretation": "Two FT losses are documented in regression, not target; scorer/group disclosed in report."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "i": 2,
+    "question": "1 km bằng bao nhiêu mét?",
+    "keywords": [
+      "1000"
+    ],
+    "pred_b": "Trong hệ đo lường quốc tế, tiền tố \"kilo\" (ký hiệu là **km**) có nghĩa là **1000**. Do đó, 1 kilômét tương đương với 1000 mét.\n\nKết quả: **1 km = 1000 m**.",
+    "pred_ft": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": null, \"sentiment\": \"trung_tinh\", \"intent_confidence\": 0.95, \"urgency_confidence\": 0.98, \"product_confidence\": 0.0, \"sentiment_confidence\": 0.92}",
+    "score_b": 1.0,
+    "score_ft": 0.0,
+    "delta": -1.0
+  },
+  {
+    "i": 3,
+    "question": "Viết một câu chúc mừng sinh nhật bằng tiếng Việt.",
+    "keywords": [
+      "sinh nhật"
+    ],
+    "pred_b": "Chúc bạn một ngày sinh nhật thật vui vẻ, tràn đầy niềm vui và sức khỏe, cùng với những điều may mắn và hạnh phúc nhất trong năm mới!",
+    "pred_ft": "{\"intent\": \"chuc_mung_sinh_nhat\", \"urgency\": \"trung_tinh\", \"tone\": \"trung_thinh\", \"product\": null, \"sentiment\": \"tich_cuc\"}",
+    "score_b": 1.0,
+    "score_ft": 0.0,
+    "delta": -1.0
+  }
+]

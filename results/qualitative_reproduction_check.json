@@ -1,0 +1,6 @@
+{
+  "supplementary_inference": true,
+  "baseline_target": 0.765,
+  "ft_target": 0.97,
+  "matches_frozen_scores": true
+}

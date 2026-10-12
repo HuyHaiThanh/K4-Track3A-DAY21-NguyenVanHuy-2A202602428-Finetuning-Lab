@@ -1,0 +1,77 @@
+[
+  {
+    "i": 6,
+    "ticket": "Xin chào, mình đặt balo laptop mã đơn DH863123. Đổi size. Hỏi cho biết thôi. Lần cuối mua ở đây.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "thap",
+      "product": "balo laptop",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tieu_cuc\"}",
+    "pred_ft": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"balo laptop\", \"sentiment\": \"tieu_cuc\"}",
+    "score_b": 0.5,
+    "score_ft": 1.0,
+    "delta": 0.5
+  },
+  {
+    "i": 7,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD126693. Muốn đổi. Đã 3 ngày rồi. Bực mình.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+    "pred_ft": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tieu_cuc\"}",
+    "score_b": 0.5,
+    "score_ft": 1.0,
+    "delta": 0.5
+  },
+  {
+    "i": 3,
+    "ticket": "Cho mình hỏi, mình đặt bình giữ nhiệt mã đơn VN804124. Chưa thấy tiền. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "bình giữ nhiệt",
+      "sentiment": "tich_cuc"
+    },
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "pred_ft": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "score_b": 0.75,
+    "score_ft": 0.75,
+    "delta": 0.0
+  },
+  {
+    "i": 5,
+    "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn DH249548. Thiếu phụ kiện. Khi nào tiện. Cho tôi hỏi.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "nồi chiên không dầu",
+      "sentiment": "trung_tinh"
+    },
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+    "pred_ft": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+    "score_b": 0.5,
+    "score_ft": 0.75,
+    "delta": 0.25
+  },
+  {
+    "i": 12,
+    "ticket": "Shop ơi, mình đặt áo khoác gió mã đơn VN613097. Bị lỗi. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "pred_b": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "pred_ft": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "score_b": 0.75,
+    "score_ft": 0.75,
+    "delta": 0.0
+  }
+]

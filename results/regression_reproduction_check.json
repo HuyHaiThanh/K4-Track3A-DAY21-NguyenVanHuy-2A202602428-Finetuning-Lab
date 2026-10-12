@@ -1,0 +1,6 @@
+{
+  "matches_frozen_scores": true,
+  "baseline_regression": 0.7911111111111111,
+  "ft_regression": 0.4777777777777778,
+  "loss_count": 8
+}
