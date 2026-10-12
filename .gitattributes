@@ -1,0 +1,2 @@
+# Preserve the byte checksums of the lab corpus on Windows.
+data/*.jsonl text eol=lf
