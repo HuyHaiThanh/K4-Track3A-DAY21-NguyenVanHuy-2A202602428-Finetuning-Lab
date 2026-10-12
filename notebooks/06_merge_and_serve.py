@@ -69,7 +69,7 @@ merged.save_pretrained(out); tok.save_pretrained(out)
 report.write_json({"before_merge": before, "after_merge": after, "delta": delta,
                    "tolerance": TOL, "n": len(target)},
                   "merge_check.json", results_dir=ROOT / "results")
-del merged; generate.free_memory()
+del merged, model; generate.free_memory()
 
 # %% [markdown]
 # ## 3. Một base, nhiều adapter — hoán đổi theo request
@@ -82,7 +82,7 @@ model, tok = generate.load_base(TIER)
 model = PeftModel.from_pretrained(model, str(ROOT / "adapters" / "correct"),
                                   adapter_name="correct")
 available = ["correct"]
-for extra in ("attn_only", "qlora"):
+for extra in ("attn_only",):
     d = ROOT / "adapters" / extra
     if d.exists():
         model.load_adapter(str(d), adapter_name=extra)
